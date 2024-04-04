@@ -11,7 +11,7 @@ import * as Server from 'socket.io';
 
 const app = express();
 const corsConfig = {
-  origin: ['*'],
+  origin: '*',
   credentials: true,
 };
 
